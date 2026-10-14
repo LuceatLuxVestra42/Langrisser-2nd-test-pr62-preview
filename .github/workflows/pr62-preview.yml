@@ -136,13 +136,13 @@ jobs:
           cd artifact
           cat > expected-files.txt <<'FILES'
           app.js
-          assets/portraits/hero-5.png
-          assets/portraits/hero-6.png
-          assets/portraits/hero-8.png
           assets/portraits/hero-28.png
           assets/portraits/hero-32.png
+          assets/portraits/hero-5.png
           assets/portraits/hero-52.png
           assets/portraits/hero-53.png
+          assets/portraits/hero-6.png
+          assets/portraits/hero-8.png
           generated/exclusive-equipment.v1.json
           generated/general-ssr-equipment.v1.json
           generated/hero-slice.v1.json
